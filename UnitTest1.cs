@@ -53,7 +53,7 @@ namespace HackerNews
             var service = new HackerNewService(httpClient);
 
             // Act
-            var result = await service.GetNewStoriesAsync(newStoriesURL);
+            var result = await service.GetNewStoriesIdsAsync(newStoriesURL);
 
             // Assert
             Assert.IsNotNull(result, "Expected a non-null result");
