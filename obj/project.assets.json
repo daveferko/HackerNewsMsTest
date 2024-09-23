@@ -2810,8 +2810,8 @@
     },
     "Nextech_HackerNews/1.0.0": {
       "type": "project",
-      "path": "../Nextech_HackerNews/Nextech_HackerNews.csproj",
-      "msbuildProject": "../Nextech_HackerNews/Nextech_HackerNews.csproj"
+      "path": "../nextech_HackerNews/Nextech_HackerNews.csproj",
+      "msbuildProject": "../nextech_HackerNews/Nextech_HackerNews.csproj"
     }
   },
   "projectFileDependencyGroups": {

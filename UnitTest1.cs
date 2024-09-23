@@ -8,9 +8,20 @@ namespace HackerNews
     [TestClass]
     public class UnitTest1
     {
+        private Mock<HttpMessageHandler>? _mockHttpMessageHandler;
+        private HttpClient? _httpClient;
+        private HackerNewService? _hackerNewService; // Assuming HackerNewsApi is the class containing GetNewStoryDetailsAsync method
+
+        [TestInitialize]
+        public void Setup()
+        {
+            _mockHttpMessageHandler = new Mock<HttpMessageHandler>();
+            _httpClient = new HttpClient(_mockHttpMessageHandler.Object);
+            _hackerNewService = new HackerNewService(_httpClient); // Assuming HackerNewsApi constructor accepts HttpClient
+        }
 
         [TestMethod]
-        public async Task GetNewStoryDetailsAsync_StoryListDetails()
+        public async Task GetNewStoryDetailsAsync_StoryListIDs()
         {
 
             // Arrange
@@ -46,10 +57,8 @@ namespace HackerNews
 
             // Assert
             Assert.IsNotNull(result, "Expected a non-null result");
-            //Assert.AreEqual(3, result.Length, "Expected 3 story IDs");
-            //Assert.AreEqual(1, result[0], "Expected the first story ID to be 1");
-            //Assert.AreEqual(2, result[1], "Expected the second story ID to be 2");
-            //Assert.AreEqual(3, result[2], "Expected the third story ID to be 3");
+
         }
     }
 }
+

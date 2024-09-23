@@ -87,12 +87,12 @@
         }
       }
     },
-    "C:\\Users\\davef\\source\\repos\\Nextech_HackerNews\\Nextech_HackerNews.csproj": {
+    "C:\\Users\\davef\\source\\repos\\nextech_HackerNews\\Nextech_HackerNews.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\davef\\source\\repos\\Nextech_HackerNews\\Nextech_HackerNews.csproj",
+        "projectUniqueName": "C:\\Users\\davef\\source\\repos\\nextech_HackerNews\\Nextech_HackerNews.csproj",
         "projectName": "Nextech_HackerNews",
-        "projectPath": "C:\\Users\\davef\\source\\repos\\Nextech_HackerNews\\Nextech_HackerNews.csproj",
+        "projectPath": "C:\\Users\\davef\\source\\repos\\nextech_HackerNews\\Nextech_HackerNews.csproj",
         "packagesPath": "C:\\Users\\davef\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\davef\\source\\repos\\nextech_HackerNews\\obj\\",
         "projectStyle": "PackageReference",
