@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v8.0": {
-      "nextech_HackerNews/1.0.0": {
+      "Nextech_HackerNews/1.0.0": {
         "dependencies": {
           "FluentAssertions": "6.12.1",
           "MSTest.TestAdapter": "3.6.0",
@@ -18,7 +18,7 @@
           "Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions": "14.0.0.0"
         },
         "runtime": {
-          "nextech_HackerNews.dll": {}
+          "Nextech_HackerNews.dll": {}
         }
       },
       "Castle.Core/5.1.1": {
@@ -615,7 +615,7 @@
     }
   },
   "libraries": {
-    "nextech_HackerNews/1.0.0": {
+    "Nextech_HackerNews/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

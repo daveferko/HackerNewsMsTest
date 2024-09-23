@@ -11,8 +11,8 @@
           "MSTest.TestAdapter": "3.6.0",
           "MSTest.TestFramework": "3.6.0",
           "Microsoft.NET.Test.Sdk": "17.8.0",
+          "Nextech_HackerNews": "1.0.0",
           "coverlet.collector": "6.0.0",
-          "nextech_HackerNews": "1.0.0",
           "Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions": "14.0.0.0"
         },
         "runtime": {
@@ -764,7 +764,7 @@
           }
         }
       },
-      "nextech_HackerNews/1.0.0": {
+      "Nextech_HackerNews/1.0.0": {
         "dependencies": {
           "FluentAssertions": "6.12.1",
           "MSTest.TestAdapter": "3.6.0",
@@ -775,7 +775,7 @@
           "xunit": "2.9.0"
         },
         "runtime": {
-          "nextech_HackerNews.dll": {}
+          "Nextech_HackerNews.dll": {}
         }
       },
       "Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions/14.0.0.0": {
@@ -1067,7 +1067,7 @@
       "path": "xunit.extensibility.execution/2.9.0",
       "hashPath": "xunit.extensibility.execution.2.9.0.nupkg.sha512"
     },
-    "nextech_HackerNews/1.0.0": {
+    "Nextech_HackerNews/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
